@@ -5,5 +5,14 @@
   "npmClient": "yarn",
   "useWorkspaces": true,
   "npmClientArgs": ["--no-lockfile"],
-  "version": "independent"
+  "version": "independent",
+  "command": {
+    "version": {
+       "ignoreChanges": ["*.md"],
+       "npmClient": "npm"
+    },
+    "publish": {
+       "npmClient": "npm"
+    }
+ }
 }

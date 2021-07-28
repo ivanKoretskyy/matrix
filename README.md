@@ -27,3 +27,13 @@ mono-repo/
 
 
 1. init repo via yarn / yarn init
+2. add dependencies lerna and typescript
+3. add lerna setting via lerna init
+
+
+
+
+
+-----------------------RESOURCES-----------------------
+https://medium.com/ah-technology/a-guide-through-the-wild-wild-west-of-setting-up-a-mono-repo-with-typescript-lerna-and-yarn-ed6a1e5467a
+https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f97481149d
