@@ -1,10 +1,12 @@
 const express = require( "express" );
+import { multiply } from '@ivankoretskyy/matrix-utils'
 
 const app = express();
 
 app.get('/multiply', (req: any, res: any) => { // TODO: ADD TYPES
-    console.log(req.query.number)
-    res.send(req.query);
+    const multiplied = multiply(+req.query.number)
+    console.info(multiplied)
+    res.send({data: multiplied});
 })
 
 app.listen(3000, () => {
