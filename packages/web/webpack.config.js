@@ -45,7 +45,7 @@ module.exports = {
     ],
     devServer: {
         contentBase: path.join(__dirname, './src'),
-        port: 3000,
+        port: 4200,
         hotOnly: true,
         compress: true,
         open: true,
