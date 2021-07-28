@@ -10,15 +10,16 @@
   },
   "license": "MIT",
   "scripts": {
-    "clean": "rimraf dist",
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
     "prepack": "yarn build",
     "build": "yarn clean && yarn compile",
     "test": "echo 'no test'",
     "start": "webpack serve --config webpack.config.js --env env=development",
     "compile": "webpack --config webpack.config.js --env env=production",
-    "compile2": "tsc && cp \"./package.json\" ./dist/"
+    "compile2": "tsc --build && cp \"./package.json\" ./dist/"
   },
   "dependencies": {
+    "@ivankoretskyy/matrix-utils": "^1.0.0",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "react": "^17.0.2",

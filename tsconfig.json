@@ -1,0 +1,10 @@
+{
+  "compilerOptions": {
+     "jsx": "react",
+     "baseUrl": "./packages",
+     "paths": {
+        "@ivankoretskyy/web/*": ["web/src/*"],
+        "@ivankoretskyy/utils/*": ["utils/src/*"],
+     }
+   }
+}

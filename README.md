@@ -46,6 +46,10 @@ yarn add --dev webpack webpack-cli webpack-dev-server style-loader css-loader ba
 11. create webpack config
 12. add script for package json for react app
 
+----------------------
+13. add root tsconfig json for navigation purpose
+14. add project references
+
 
 -----------------------RESOURCES-----------------------
 https://medium.com/ah-technology/a-guide-through-the-wild-wild-west-of-setting-up-a-mono-repo-with-typescript-lerna-and-yarn-ed6a1e5467a
@@ -53,3 +57,4 @@ https://medium.com/@jsilvax/a-workflow-guide-for-lerna-with-yarn-workspaces-60f9
 
 https://betterprogramming.pub/complete-guideline-to-creating-a-modern-react-app-with-typescript-from-scratch-cebbb5817d8
 
+https://betterprogramming.pub/building-a-modern-react-app-from-scratch-in-2021-d2071c31c98

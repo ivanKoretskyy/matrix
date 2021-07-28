@@ -10,10 +10,10 @@
     "url": "git@github.com:ivanKoretskyy/matrix.git"
   },
   "scripts": {
-     "clean": "rimraf dist",
+    "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
      "prepack": "yarn build",
      "build": "yarn clean && yarn compile",
-     "compile": "tsc && cp \"./package.json\" ./dist/",
+     "compile": "tsc --build && cp \"./package.json\" ./dist/",
      "test": "echo 'no test'"
   }
 }
