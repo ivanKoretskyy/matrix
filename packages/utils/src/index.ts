@@ -1,1 +1,1 @@
-export * from './multiply';
+export { multiply } from './multiply';
