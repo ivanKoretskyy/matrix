@@ -42,8 +42,8 @@ mono-repo/
 12. add babelrc config
 11. add dependencies for types react and types react-dom
 12. add dependencies for webpack
-
-
+yarn add --dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader html-webpack-plugin clean-webpack-plugin
+11. create webpack config
 
 
 -----------------------RESOURCES-----------------------
