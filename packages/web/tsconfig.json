@@ -1,6 +1,8 @@
+
 {
+  "extends": "../../tsconfig.build.json",
   "compilerOptions": {
-   "moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */ /* Type declaration files to be included in compilation. */,
+   //"moduleResolution": "node" /* Specify module resolution strategy: 'node' (Node.js) or 'classic' (TypeScript pre-1.6). */ /* Type declaration files to be included in compilation. */,
     "lib": [
       "DOM",
     ] /* Specify library files to be included in the compilation. */,
@@ -12,6 +14,8 @@
     "allowJs": true /* Allow javascript files to be compiled. Useful when migrating JS to TS */,
     "checkJs": true /* Report errors in .js files. Works in tandem with allowJs. */,
     "composite": true,
+    "rootDir": "src",
+    "outDir": "./dist",
   },
   "references": [
     { "path": "../utils" }
