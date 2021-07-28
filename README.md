@@ -30,6 +30,7 @@ mono-repo/
 2. add dependencies lerna and typescript
 3. add lerna setting via lerna init
 
+4. add package for utils
 
 
 

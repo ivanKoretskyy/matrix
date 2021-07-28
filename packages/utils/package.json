@@ -1,0 +1,19 @@
+{
+  "name": "@ivankoretskyy/utils",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "directory": "packages/utils",
+    "url": "git@github.com:ivanKoretskyy/matrix.git"
+  },
+  "scripts": {
+     "clean": "rimraf dist",
+     "prepack": "yarn build",
+     "build": "yarn clean && yarn compile",
+     "compile": "tsc && cp \"./package.json\" ./dist/",
+     "test": "echo 'no test'"
+  }
+}
