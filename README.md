@@ -34,7 +34,14 @@ mono-repo/
 5. configure process for build utils
 ---
 6. add package for web
-
+7. configure tsconfig
+8. add dependencies for react/ react dom
+9. create index.html and index.tsx files
+10. add dependencies for babel
+11. add aditional deps yarn add -D  @babel/runtime  @babel/plugin-transform-runtime
+12. add babelrc config
+11. add dependencies for types react and types react-dom
+12. add dependencies for webpack
 
 
 
