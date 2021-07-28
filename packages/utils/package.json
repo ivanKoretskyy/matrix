@@ -1,5 +1,5 @@
 {
-  "name": "@ivankoretskyy/utils",
+  "name": "@ivankoretskyy/matrix-utils",
   "version": "1.0.0",
   "license": "MIT",
   "main": "dist/index.js",
