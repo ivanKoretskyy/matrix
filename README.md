@@ -44,6 +44,7 @@ mono-repo/
 12. add dependencies for webpack
 yarn add --dev webpack webpack-cli webpack-dev-server style-loader css-loader babel-loader html-webpack-plugin clean-webpack-plugin
 11. create webpack config
+12. add script for package json for react app
 
 
 -----------------------RESOURCES-----------------------
