@@ -31,6 +31,10 @@ mono-repo/
 3. add lerna setting via lerna init
 
 4. add package for utils
+5. configure process for build utils
+---
+6. add package for web
+
 
 
 
