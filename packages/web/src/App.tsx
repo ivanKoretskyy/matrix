@@ -4,10 +4,10 @@ import { multiply } from '@ivankoretskyy/matrix-utils'
 
 export const App: React.FC = () => {
 
-  
+  const result = multiply(8)
   return (
     <div>
-      This is react app2
+      result of multiply 8 is {result}
     </div>
   )
 }
