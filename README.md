@@ -50,6 +50,8 @@ yarn add --dev webpack webpack-cli webpack-dev-server style-loader css-loader ba
 13. add root tsconfig json for navigation purpose
 14. add project references
 15. add express and node
+16. configure tsconfig.json
+17. add node server
 
 -----------------------RESOURCES-----------------------
 https://medium.com/ah-technology/a-guide-through-the-wild-wild-west-of-setting-up-a-mono-repo-with-typescript-lerna-and-yarn-ed6a1e5467a

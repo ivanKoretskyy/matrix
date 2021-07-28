@@ -8,6 +8,11 @@
     "directory": "packages/server",
     "url": "git@github.com:ivanKoretskyy/matrix.git"
   },
+  "scripts": {
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ."
+  },
   "license": "MIT",
   "dependencies": {
     "@types/express": "^4.17.13",
