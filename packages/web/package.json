@@ -13,8 +13,10 @@
     "clean": "rimraf dist",
     "prepack": "yarn build",
     "build": "yarn clean && yarn compile",
-    "compile": "tsc && cp \"./package.json\" ./dist/",
-    "test": "echo 'no test'"
+    "test": "echo 'no test'",
+    "start": "webpack serve --config webpack.config.js --env env=development",
+    "compile": "webpack --config webpack.config.js --env env=production",
+    "compile2": "tsc && cp \"./package.json\" ./dist/"
   },
   "dependencies": {
     "@types/react": "^17.0.15",
