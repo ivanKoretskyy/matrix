@@ -17,6 +17,7 @@ export const App: React.FC = () => {
   return (
     <div>
       <div>
+        <div>hello</div>
       <input type="number" onChange={e => {setValue(+e.target.value)}}/>
       </div>
       <div>
