@@ -1,6 +1,6 @@
 {
   "name": "@ivankoretskyy/matrix-web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "index.d.ts",
   "repository": {
@@ -19,7 +19,7 @@
     "compile2": "tsc --build && cp \"./package.json\" ./dist/"
   },
   "dependencies": {
-    "@ivankoretskyy/matrix-utils": "^1.0.0",
+    "@ivankoretskyy/matrix-utils": "^1.0.1",
     "@types/react": "^17.0.15",
     "@types/react-dom": "^17.0.9",
     "react": "^17.0.2",

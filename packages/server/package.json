@@ -1,6 +1,6 @@
 {
   "name": "@ivankoretskyy/matrix-server",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "repository": {
@@ -15,7 +15,7 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@ivankoretskyy/matrix-utils": "^1.0.0",
+    "@ivankoretskyy/matrix-utils": "^1.0.1",
     "@types/express": "^4.17.13",
     "@types/node": "^16.4.6",
     "cors": "^2.8.5",

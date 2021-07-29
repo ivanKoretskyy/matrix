@@ -1,6 +1,6 @@
 {
   "name": "@ivankoretskyy/matrix-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -11,9 +11,9 @@
   },
   "scripts": {
     "clean": "rimraf dist && rimraf tsconfig.tsbuildinfo",
-     "prepack": "yarn build",
-     "build": "yarn clean && yarn compile",
-     "compile": "tsc --build && cp \"./package.json\" ./dist/",
-     "test": "echo 'no test'"
+    "prepack": "yarn build",
+    "build": "yarn clean && yarn compile",
+    "compile": "tsc --build && cp \"./package.json\" ./dist/",
+    "test": "echo 'no test'"
   }
 }
